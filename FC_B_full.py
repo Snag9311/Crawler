@@ -64,7 +64,7 @@ SAVE_PATH = 'C:/Users/imsan/Desktop/FC_GAN_TEMP/'
 for lecture in tqdm(lectures):
     SAVE_PATH_file = SAVE_PATH+lecture.text+'.mp4'
     
-    lectures[0].click()
+    lecture.click()
     driver.implicitly_wait(3)
 
     try:
