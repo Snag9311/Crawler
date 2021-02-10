@@ -10,7 +10,7 @@ options = webdriver.ChromeOptions()
 options.add_argument('disable-gpu')
 options.add_argument('lang=ko_KR')
 options.add_argument('start-maximized')
-driver = webdriver.Chrome(r'C:\Users\imsan\chromedriver.exe', options=options)
+driver = webdriver.Chrome(r'chromedriverpath', options=options)
 
 
 # get base url & log-in
